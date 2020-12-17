@@ -37,7 +37,7 @@ export default function Project() {
                             <span><strong className="font-bold">Type</strong>:{" "}{project.projectType}</span>
                             <p className="my-6 text-lg text-grey-700 leading-relaxed">{project.description}</p>
                             <a href={project.link} rel="noopener noreferrer" target="_blank"
-                            className="text-red-500 font-bold hover:text-red-400">View The Project {" "}<span role="img" aria-aria-label="right pointer">👉</span></a>
+                            className="text-red-500 font-bold hover:text-red-400 text-xl">View The Project {" "}<span role="img" aria-aria-label="right pointer">👉</span></a>
                         </div>
                     </article>
                     ))}

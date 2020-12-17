@@ -20,16 +20,16 @@ export default {
             type: "text"
         },
         {
-            name: "project",
-            title: "projectType",
+            name: "projectType",
+            title: "project type",
             type: "string",
-            options:{
+            options: {
                 list: [
                     {value: "personal", title: "Personal"},
                     {value: "client", title: "Client"},
                     {value: "school", title: "School"}
-                ]
-            }
+                ],
+            },
         },
         {
             name:"link",
